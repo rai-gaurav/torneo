@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+%= include 'layouts/_head'
+
+<body ondragstart="return false;" ondrop="return false;">
+    <div  class="container" id="app">
+        %= content 'header'
+        <div id="content_header"></div>
+        <div id="site_content">
+            %= content 'sidebar'
+            <div id="content">
+                %= content
+            </div>
+        </div>
+        %= include 'layouts/_footer'
+        %= content 'footer'
+    </div>
+    %= include 'layouts/_end'
+    %= content 'end'
+</body>
+</html>

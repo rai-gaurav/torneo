@@ -1,0 +1,3 @@
+<script src="<%= $prefix; %>/vue.js"></script>
+<script src="<%= $prefix; %>/axios.min.js"></script>
+<script src="<%= $prefix; %>/vue-app.js"></script>
